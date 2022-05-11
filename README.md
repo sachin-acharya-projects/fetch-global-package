@@ -1,3 +1,8 @@
+<style>
+    #parameters-and-more li {
+        color: red;
+    }
+</style>
 # fetch-global-package
 ___________________________________________
 ### Description
@@ -31,9 +36,6 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 [Get More informations on parameters and data elements](#parameters-and-more)
 
 ### Parameters and More
-li {
-    list-style: none;
-}
 1. Parameter for constructor
     * Constructor requires 2 parameters
         * __url (String)__
