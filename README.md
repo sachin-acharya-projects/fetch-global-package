@@ -32,7 +32,7 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 
 ### Parameters and More
 <style>
-    *{
+    li {
         list-style: 'none';
     }
 </style>
