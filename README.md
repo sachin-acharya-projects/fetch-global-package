@@ -22,6 +22,7 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 2. Inside JavaScript File (index.js)
 ````javascript
     import Fetch from "/path/fetch-global.js"; // Importing or linking library with javascript file
+    
     const fetch_ = new Fetch(url: string, options: object) // making instance of Fetch class
     await fetch_.start() // Starting XHR process
 
@@ -33,10 +34,10 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 1. Parameter for constructor  
 Constructor requires 2 parameters  
     a. url (String)    
-        This is the url to api where xhr request is to be send  
+      This is the url to api where xhr request is to be send  
     b. options (Object)    
-        This are the options that can be passed along with xhr requests   
-        [Full details on options](https://developer.mozilla.org/en-US/docs/Web/API/fetch)  
+      This are the options that can be passed along with xhr requests   
+      [Full details on options](https://developer.mozilla.org/en-US/docs/Web/API/fetch)  
 ````javascript  
     /**
      * @property {"application/json" | "application/x-www-form-urlencoded"} ContentType
