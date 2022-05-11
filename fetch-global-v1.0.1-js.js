@@ -15,7 +15,7 @@
  * @property {"no-referrer" | "no-referrer-when-downgrade" | "origin" | "origin-when-cross-origin" | "same-origin" | "strict-origin" | "strict-origin-when-cross-origin" | "unsafe-url"} referrerPolicy no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
  */
 
- class Fetch {
+class Fetch {
     /**
      * This constructor functions initialize the method Start for processing
      * @param {string} url 
