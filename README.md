@@ -32,12 +32,12 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 
 ### Parameters and More
 1. Parameter for constructor
->Constructor requires 2 parameters  
-    >>a. url (String)    
-      >>>This is the url to api where xhr request is to be send  
-    >>b. options (Object)    
-      >>>This are the options that can be passed along with xhr requests   
-      >[Full details on options](https://developer.mozilla.org/en-US/docs/Web/API/fetch)  
+* Constructor requires 2 parameters  
+    * a. url (String)    
+      * This is the url to api where xhr request is to be send  
+    * b. options (Object)    
+      *This are the options that can be passed along with xhr requests   
+[Full details on options](https://developer.mozilla.org/en-US/docs/Web/API/fetch)  
 ````javascript  
     /**
      * @property {"application/json" | "application/x-www-form-urlencoded"} ContentType
