@@ -1,8 +1,3 @@
-<style>
-    #parameters-and-more li {
-        color: red;
-    }
-</style>
 # fetch-global-package
 ___________________________________________
 ### Description
@@ -62,4 +57,5 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
         * error  
             * return informations of error if any  
 ### Downloads
-v1.0.1
+* v1.0.1
+  [Download](https://raw.githubusercontent.com/sachin-acharya-projects/fetch-global-package/main/fetch-global-v1.0.1.js)
