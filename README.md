@@ -34,29 +34,11 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 1. Parameter for constructor
     * Constructor requires 2 parameters
         * __url (String)__
-        * This is the url to api where xhr request is to be send
+            * This is the url to api where xhr request is to be send
         * __options (Object)__
-        * This are the options that can be passed along with xhr requests
+            * This are the options that can be passed along with xhr requests
     [Full details on options](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
-    ````javascript  
-        /**
-         * @property {"application/json" | "application/x-www-form-urlencoded"} ContentType
-         */
 
-        /**
-         * @property {"GET" | "POST" | "PUT" | "DELETE"} method *GET, POST, PUT, DELETE, etc.  
-         * @property {"no-cors" | "cors" | "same-origin"} mode no-cors, *cors, same-origin  
-         * @property {"default" | "no-cache" | "reload" | "force-cache" | "only-if-cached"} cache   
-         * *default, no-cache, reload, force-cache, only-if-cached  
-         * @property {"include" | "same-origin" | "omit"} credentials include, *same-origin, omit  
-         * @property {HeadersAPI} headers  
-         * @property {"manual" | "follow" | "error"} redirect manual, *follow, error  
-         * @property {*} body   
-         * cannot be used with GET method & body data type must match "Content-Type" header (content to be send)  
-         * @property {"no-referrer" | "no-referrer-when-downgrade" | "origin" | "origin-when-cross-origin" | "same-origin" | "strict-origin" | "strict-origin-when-cross-origin" | "unsafe-url"} referrerPolicy   
-         * no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-         */
-    ````
 2. Data Element  
     * This are the results of xhr request that can be obtained with syntax
         * instance.key
