@@ -57,7 +57,8 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
         * error  
             * return informations of error if any  
 ### Downloads
-* v1.0.1 <a href='https://raw.githubusercontent.com/sachin-acharya-projects/fetch-global-package/main/fetch-global-v1.0.1.js' download>Download</a>  
+* v1.0.1 <a href='https://raw.githubusercontent.com/sachin-acharya-projects/fetch-global-package/main/fetch-global-v1.0.1.js' download>Download</a>
+<br>
 CDN
 ````url
 https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-global-package/fetch-global-v1.0.1.js
