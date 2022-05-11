@@ -31,6 +31,11 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 [Get More informations on parameters and data elements](#parameters-and-more)
 
 ### Parameters and More
+<style>
+    *{
+        list-style: 'none';
+    }
+</style>
 1. Parameter for constructor
 * Constructor requires 2 parameters
     * __url (String)__
