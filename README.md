@@ -36,7 +36,7 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
         * __url (String)__
             * This is the url to api where xhr request is to be send
         * __options (Object)__
-            * This are the options that can be passed along with xhr requests
+            * This are the options that can be passed along with xhr requests  
     [Full details on options](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
 
 2. Data Element  
