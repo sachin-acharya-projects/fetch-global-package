@@ -27,4 +27,6 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 
     fetch_.[items] // Geting Results back
 ````
-[Get More Information about the 'options' parameter and .[items]](#parameters-and-more)
+[Get More informations on parameters and data elements](###parameters-and-more)
+
+### Parameters and More
