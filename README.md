@@ -82,5 +82,5 @@ import Fetch from 'https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-glo
 ````
 or
 ````html
-<script src='https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-global-package/fetch-global-v1.0.1.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-global-package/fetch-global-v1.0.1-js.js'></script>
 ````
