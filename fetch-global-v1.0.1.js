@@ -28,7 +28,7 @@ class Fetch {
     }
     async start() {
         await fetch(this.url, this.options)
-        // .then(results => this.stat = results)
+        .then(results => this.stat = results)
         .then(results => results.json())
         .then(results => this.data = results)
         .catch(err => this.error = err)
