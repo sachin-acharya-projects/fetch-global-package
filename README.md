@@ -30,6 +30,19 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
 ````
 [Get More informations on parameters and data elements](#parameters-and-more)
 
+````javascript
+/**
+ * If script tag doesnot contain type='module' 
+ * <scrippt src='/path/fetch-global-vX.X.X.js'></script>
+ * then start() function must be awaited inside async function
+ * for example
+ * const instance_ = new Fetch(url, options)
+ * const func_ = async () => {
+ *      await instance_.start()
+ *      console.log(instance_.data) // This value is available only within this function
+ * }
+*/
+````
 ### Parameters and More
 1. Parameter for constructor
     * Constructor requires 2 parameters
@@ -66,4 +79,8 @@ https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-global-package/fetch-g
 or
 ````javascript
 import Fetch from 'https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-global-package/fetch-global-v1.0.1.js'
+````
+or
+````html
+<script src='https://cdn.jsdelivr.net/gh/sachin-acharya-projects/fetch-global-package/fetch-global-v1.0.1.js'></script>
 ````
