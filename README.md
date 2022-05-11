@@ -45,16 +45,16 @@ This is a JavaScript Library that makes use of fetch web api and provide resolve
         * where
             * instance is instance of class object
             * key is data element
-    * Type of Keys
-        i. url:
+    * Type of Keys  
+        a. url:  
             * return the url to which xhr request in made
-        ii. options
+        b. options  
             * return all the options that we passed to xhr request
-        iii. stat
+        c. stat  
             * return all the resolved informations from xhr request (like status, body, data, etc)
-        iv. data
+        d. data  
             * return required data (JSON) from xhr request if any
-        v. error
+        e. error  
             * return informations of error if any
 ### Downloads
 v1.0.1
